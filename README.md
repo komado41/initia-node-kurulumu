@@ -144,12 +144,16 @@ sudo systemctl restart initiad && sudo journalctl -u initiad -f
 ```
 ### 🚧Cüzdan oluşturma
 NOT: cüzdan adınızı yazınız
+
 ```
 initiad keys add cuzdan-adini-yaz
 ```
+
 - Eski cüzdan import ederkene bele
+
 ```
 initiad keys add wallet --recover
+
 ```
 
 ### 🚧Validator oluşturma
