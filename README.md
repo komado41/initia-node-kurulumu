@@ -129,19 +129,17 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"50\"/" $HOME/.initia/co
 sudo systemctl daemon-reload
 sudo systemctl restart initiad
 
+```
 
 ### 🚧Snapshot
 ```
 sudo systemctl stop initiad
-
 cp $HOME/.initia/data/priv_validator_state.json $HOME/.initia/priv_validator_state.json.backup
-
 rm -rf $HOME/.initia/data $HOME/.initia/wasmPath
 curl https://testnet-files.itrocket.net/initia/snap_initia.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.initia
-
 mv $HOME/.initia/priv_validator_state.json.backup $HOME/.initia/data/priv_validator_state.json
-
 sudo systemctl restart initiad && sudo journalctl -u initiad -f
+
 ```
 ```
 ### 🚧Cüzdan oluşturma
