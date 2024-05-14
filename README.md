@@ -125,10 +125,9 @@ sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"50\"/" $HOME/.initia/co
 ```
 
 ### 🚧Başlatalım   
-```
-sudo systemctl daemon-reload
-sudo systemctl restart initiad
 
+```sudo systemctl daemon-reload
+sudo systemctl restart initiad
 ```
 
 ### 🚧Snapshot
@@ -139,9 +138,8 @@ rm -rf $HOME/.initia/data $HOME/.initia/wasmPath
 curl https://testnet-files.itrocket.net/initia/snap_initia.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.initia
 mv $HOME/.initia/priv_validator_state.json.backup $HOME/.initia/data/priv_validator_state.json
 sudo systemctl restart initiad && sudo journalctl -u initiad -f
+```
 
-```
-```
 ### 🚧Cüzdan oluşturma
 NOT: cüzdan adınızı yazınız
 
@@ -153,7 +151,6 @@ initiad keys add cuzdan-adini-yaz
 
 ```
 initiad keys add wallet --recover
-
 ```
 
 ### 🚧Validator oluşturma
