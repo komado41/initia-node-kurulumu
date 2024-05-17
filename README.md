@@ -18,10 +18,11 @@ https://scan.testnet.initia.xyz/initiation-1
  Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
-| CPU |	8|
+| CPU |4|
 | RAM	| 16+ GB |
-| Storage	| 360 GB SSD |
+| Storage	| 1 TB SSD |
 | System	| Ubuntu 22.04 |
+| Network Bandwidth	| 100 Mbps |
 
 ### 🚧Gerekli kurulumlar
 ```
