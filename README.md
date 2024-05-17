@@ -147,7 +147,7 @@ NOT: cüzdan adınızı yazınız
 initiad keys add cuzdan-adini-yaz
 ```
 
-- Eski cüzdan import ederkene bele
+- Eski cüzdan import etmek isterseniz
 
 ```
 initiad keys add wallet --recover
@@ -175,7 +175,7 @@ initiad tx mstaking create-validator \
   --gas-prices 0.15uinit \
   -y
 ```
-### Edit validator
+### validator duzenleme
 ```
 initiad tx mstaking edit-validator \
 --moniker "isim-yaz" \
@@ -185,7 +185,7 @@ initiad tx mstaking edit-validator \
 --gas-prices 0.15uinit \
 -y
 ```
-### Kendine delege
+### Kendine delege etme
 
 ```bash
 initiad tx mstaking delegate $(initiad keys show wallet --bech val -a)  miktar000000uinit --from wallet --gas-adjustment 1.4 --gas auto --gas-prices 0.15uinit --node=http://localhost:15657 -y
