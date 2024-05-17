@@ -18,9 +18,9 @@ https://scan.testnet.initia.xyz/initiation-1
  Sistem Gereksinimleri
 | Bileşenler | Minimum Gereksinimler | 
 | ------------ | ------------ |
-| CPU |	4|
-| RAM	| 8+ GB |
-| Storage	| 300 GB SSD |
+| CPU |	8|
+| RAM	| 16+ GB |
+| Storage	| 360 GB SSD |
 | System	| Ubuntu 22.04 |
 
 ### 🚧Gerekli kurulumlar
@@ -186,7 +186,7 @@ initiad tx mstaking edit-validator \
 -y
 ```
 ### Kendine delege
-NOT: 
+
 ```bash
 initiad tx mstaking delegate $(initiad keys show wallet --bech val -a)  miktar000000uinit --from wallet --gas-adjustment 1.4 --gas auto --gas-prices 0.15uinit --node=http://localhost:15657 -y
 ```
