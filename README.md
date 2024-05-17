@@ -2,8 +2,8 @@
 <h1 align="center"> INITIA NODE KURULUMU
 
 </h1>
-Odul ve daha fazla detay icin buraya bakabilirsiniz
-[https://t.co/eXzRezPm0B
+
+ Odul ve daha fazla detay icin buraya bakabilirsiniz * [https://t.co/eXzRezPm0B
 ](https://initia-xyz.notion.site/The-Initiation-Validator-Tasks-6d88ab0034644473907435662f9285b3)
 
  * [Discord](https://discord.gg/initia)<br>
